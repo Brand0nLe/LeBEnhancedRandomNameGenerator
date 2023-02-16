@@ -1,0 +1,67 @@
+@font-face {
+    font-family: PoppinsRegular;
+    src: url(../assets/Poppins-Regular.ttf);
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkgoldenrod;
+    font-family: PoppinsRegular;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  section {
+    margin: 20px;
+    border: 2px solid black;
+    padding: 20px;
+  }
+  
+  select {
+    width: 100%;
+  }
+  
+  input.form-control {
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #00678F;
+  }
+  
+  /* align input fields with buttons */
+  .input-group-append button {
+    margin-left: -1px;
+  }
+  #random-groups-btn {
+    background-color: #00678f;
+    color: #fff;
+  }
+  #results {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 50px;
+    margin-top: 20px;
+  }
+  
+  .group {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+  }
